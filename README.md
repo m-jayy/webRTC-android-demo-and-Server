@@ -19,7 +19,7 @@ compile 'io.pristine:libjingle:8871@aar'    //webRTC官方aar包
 1. ``git clone git@github.com:linsir6/webRTC-android-demo-and-Server.git``
 2. 用Android-studio打开Android，需要修改``app->strings.xml``下面的``host``和``prot``，分别修改成电脑的局域网下的ip和运行Node服务端的端口号
 3. ``cd NodeServer``
-4. ``npm install``
+4. ``npm install forever -g``
 5. ``npm start``
 6. ``先在手机上打开apk``
 7. 在浏览器端打开``http://127.0.0.1:3000/``
